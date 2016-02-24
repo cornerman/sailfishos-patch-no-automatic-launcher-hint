@@ -1,0 +1,14 @@
+diff --git a/usr/share/lipstick-jolla-home-qt5/main.qml b/usr/share/lipstick-jolla-home-qt5/main.qml
+index dae52cc..51f5ee5 100644
+--- a/usr/share/lipstick-jolla-home-qt5/main.qml
++++ b/usr/share/lipstick-jolla-home-qt5/main.qml
+@@ -67,9 +67,6 @@ ApplicationWindow {
+             if (!active) {
+                 hintTimer.stop()
+                 Lipstick.compositor.launcherHinting = false
+-            } else if (switcher.count == 0
+-                        && Lipstick.compositor.previousWindow == Lipstick.compositor.lockScreenLayer.window) {
+-                hintTimer.start()
+             }
+         }
+ 

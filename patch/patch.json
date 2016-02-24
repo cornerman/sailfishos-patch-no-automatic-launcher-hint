@@ -1,0 +1,8 @@
+{
+    "name": "No automatic launcher hint",
+    "description": "Do not automatically show the launcher hint when visiting the homescreen and having no apps opened",
+    "category": "homescreen",
+    "infos": {
+        "maintainer": "cornerman"
+    }
+}
